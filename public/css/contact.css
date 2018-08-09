@@ -1,0 +1,29 @@
+
+h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#name, #email, #inquiry{
+    font-size: 20px;
+}
+
+/*送信確認ボタン*/
+.text-center .btn{
+    float: left;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/*送信ボタン*/
+#send_btn{
+    float: right;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#contact_confirmation{
+    margin-top: 40px;
+}

@@ -1,0 +1,79 @@
+h2{
+    font-size: 38px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-family: 'Bitter', serif;
+}
+
+.panel-body{
+    margin-left: 30px;
+}
+
+.form-group label.control-label{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.checkbox label{
+    font-size: 20px;
+}
+
+#email, #password{
+    font-size: 22px;
+}
+
+.btn{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#click{
+    text-decoration: none;
+    color: black;
+}
+
+#click:hover{
+    color: #777777;
+}
+
+.badge{
+    font-size: 18px;
+    margin-left: 10px;
+    background-color: gray;
+    color: white;
+}
+
+#submit_btn{
+    margin-top: 15px;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+#submit_btn:hover{
+    background-color: #3d6983;
+    -webkit-filter: blur(1.5px);
+    filter: blur(1.5px);
+}
+
+#github_login{
+    margin-top: 20px;
+}
+
+
+#github_login a{
+    background-color: #5e5e5e;
+    color: white;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+#github_login a:hover{
+    background-color: #0d3625;
+    -webkit-filter: blur(1.5px);
+    filter: blur(1.5px);
+}

@@ -1,0 +1,110 @@
+
+#about_profile_img{
+    /*max-width: 70%;*/
+    /*height: auto;*/
+}
+
+#about_profile_text{
+    text-align: center;
+}
+
+
+dt{
+    font-size: 24px;
+}
+
+dd{
+    /*margin-left: 40px;*/
+    font-size: 22px;
+    /*margin-top: 0;*/
+    /*margin-bottom: 0;*/
+    /*margin-left: 40px;*/
+}
+
+#about_pet{
+    margin-top: 50px;
+}
+
+.about_pet_text{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.about_pet_link img{
+    width: 300px;
+    height: 250px;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.about_pet_link:hover img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+/*試し*/
+
+
+.about_pet_link .caption {
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    font-size: 130%;
+    color:white;
+    top:0;
+    left:0;
+    position:absolute;
+    text-align:	center;
+    -webkit-transition:	all 0.4s step-end;
+    transition: all 0.4s step-end;
+}
+.about_pet_link:hover .caption {
+    visibility: visible;
+}
+.about_pet_link .caption p {
+    font-size: 110%;
+    padding-top: 80px;
+    color: white;
+    opacity: 0;
+}
+.about_pet_link:hover .caption p {
+    opacity: 1;
+}
+
+.about_pet_link:hover .caption a{
+    text-decoration: none;
+}
+
+
+.about_pet_link .mask1, .about_pet_link .mask2 {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+    -webkit-transition:	all 0.4s ease;
+    transition:	all 0.4s ease;
+}
+.about_pet_link .mask1 {
+    opacity: 0;
+    top: -50%;
+}
+.about_pet_link:hover .mask1 {
+    opacity: 1;
+    top: 0;
+}
+.about_pet_link .mask2 {
+    opacity: 0;
+    bottom:	-50%;
+}
+.about_pet_link:hover .mask2 {
+    opacity: 1;
+    bottom:	0;
+}
+
+hr{
+    border: 0.7px solid gray;
+}
